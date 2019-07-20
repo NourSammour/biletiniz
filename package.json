@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified"
-  },
+  "scripts": { },
   "bugs": {
     "url": "https://github.com/NourSammour/biletiniz/issues"
   },
