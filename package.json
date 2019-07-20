@@ -1,0 +1,20 @@
+{
+  "name": "biletiniz",
+  "version": "1.0.0",
+  "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadSommakia/biletiniz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MohammadSommakia/biletiniz/issues"
+  },
+  "homepage": "https://github.com/MohammadSommakia/biletiniz#readme"
+}
