@@ -3,14 +3,10 @@
   "version": "1.0.0",
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
   "main": "index.js",
-  "scripts": {},
   "bugs": {
     "url": "https://github.com/NourSammour/biletiniz/issues"
   },
   "homepage": "https://github.com/NourSammour/biletiniz#readme",
-  "dependencies": {
-    "react": "^16.8.6"
-  }
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -18,8 +14,13 @@
   },
   "dependencies": {
     "next": "latest",
-    "react": "^16.7.0",
+    "react": "^16.8.6",
     "react-dom": "^16.7.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.18.2"
+  }
 }
