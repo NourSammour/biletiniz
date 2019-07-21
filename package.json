@@ -2,10 +2,15 @@
   "name": "biletiniz",
   "version": "1.0.0",
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
-  "main": "index.js",
-  "scripts": { },
-  "bugs": {
-    "url": "https://github.com/NourSammour/biletiniz/issues"
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "homepage": "https://github.com/NourSammour/biletiniz#readme"
+  "dependencies": {
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "license": "ISC"
 }
