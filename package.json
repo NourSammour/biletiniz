@@ -9,3 +9,8 @@
   },
   "homepage": "https://github.com/NourSammour/biletiniz#readme"
 }
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
