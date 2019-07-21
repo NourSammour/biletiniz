@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
   "main": "index.js",
-  "scripts": { },
+  "scripts": {
+    "format": "prettier"
+  },
   "bugs": {
     "url": "https://github.com/NourSammour/biletiniz/issues"
   },
@@ -12,7 +14,7 @@
     "prettier": "1.18.2"
   },
   "prettier": {
- "singleQuote": true,
- "trailingComma": "es5" 
-   }
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
 }
