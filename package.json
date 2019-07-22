@@ -7,8 +7,8 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "cross-env NODE_ENV=production node server.js",
-
-    "test": "jest"
+    "test": "jest",
+    "format": "prettier"
 
   },
   "dependencies": {
@@ -23,15 +23,13 @@
     "eslint": "^6.1.0",
     "eslint-plugin-flowtype": "^3.12.1",
     "eslint-plugin-react": "^7.14.2",
-
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "prettier": "1.18.2"
   },
-    "license": "ISC"
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "license": "ISC"
 
 }
-
-
-
-
-
-
