@@ -3,20 +3,27 @@
   "version": "1.0.0",
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "next": "^9.0.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+
+   "express": "^4.14.0",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
-  "license": "ISC",
+
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",
     "eslint-plugin-flowtype": "^3.12.1",
     "eslint-plugin-react": "^7.14.2"
   }
 }
+  "license": "ISC"
+
+}
+
