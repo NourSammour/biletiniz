@@ -2,11 +2,12 @@
   "name": "biletiniz",
   "version": "1.0.0",
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
-  "scripts": {
-    "dev": "node server.js",
+
+    "scripts": {
+    "dev": "next",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js",
-    "test": "jest"
+    "start": "next start",
+     "test": "jest"
   },
   "dependencies": {
     "dotenv-webpack": "1.5.7",
