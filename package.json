@@ -8,19 +8,29 @@
   },
   "homepage": "https://github.com/NourSammour/biletiniz#readme",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "test": "jest"
   },
-  "dependencies": {
-    "next": "latest",
+   "dependencies": {
+    "express": "^4.14.0",
+    "next": "^9.0.2",
     "react": "^16.8.6",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.8.6"
   },
-  "license": "ISC",
   "devDependencies": {
+    "cross-env": "^5.2.0",
+    "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",
+    "eslint-plugin-flowtype": "^3.12.1",
+    "eslint-plugin-react": "^7.14.2",
+    "jest": "^24.8.0",
+     "eslint": "^6.1.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.18.2"
-  }
+  },
+    "license": "ISC"
 }
+
+
