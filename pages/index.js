@@ -2,7 +2,16 @@ import React from 'react'
 import Link from 'next/link'
 
 export default () => (
+
   <ul>
+    <li>
+      <div>
+        Hello World.{' '}
+        <Link href='/about'>
+          <a>About</a>
+        </Link>
+      </div>
+    </li>
     <li>
       <Link href='/b' as='/a'>
         <a>a</a>
@@ -19,7 +28,7 @@ export default () => (
       </Link>
     </li>
     <li>
-     <div>{process.env.TEST}</div>
+      <div>{process.env.TEST}</div>
     </li>
   </ul>
 )
