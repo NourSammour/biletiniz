@@ -2,7 +2,6 @@
   "name": "biletiniz",
   "version": "1.0.0",
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
-
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
@@ -15,7 +14,8 @@
     "express": "^4.17.1",
     "next": "^9.0.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
