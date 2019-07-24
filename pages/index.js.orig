@@ -28,6 +28,7 @@ export default () => (
         <Link href='/a' as='/b'>
           <a>b</a>
         </Link>
+<<<<<<< HEAD
       </li>
       <li>
         <Link href={{ pathname: '/posts', query: { id: '2' } }} as='/posts/2'>
@@ -52,4 +53,28 @@ export default () => (
     `}</style>
   </div>
 )
+=======
+      </div>
+    </li>
+    <li>
+      <Link href='/b' as='/a'>
+        <a>a</a>
+      </Link>
+    </li>
+    <li>
+      <Link href='/a' as='/b'>
+        <a>b</a>
+      </Link>
+    </li>
+    <li>
+      <Link href={{ pathname: '/posts', query: { id: '2' } }} as='/posts/2'>
+        <a>post #2</a>
+      </Link>
+    </li>
+    <li>
+      <div>{process.env.TEST}</div>
+    </li>
+  </ul>
 
+);
+>>>>>>> 1063356d6cf9ab1a090cdbfdd7a1fdc6a15945f2
