@@ -12,10 +12,11 @@
     "format": "prettier"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "next": "^9.0.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "dotenv-webpack": "1.5.7",
+    "express": "^4.14.0",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -29,6 +30,7 @@
     "jest": "^24.8.0",
     "prettier": "1.18.2"
   },
+
   "prettier": {
     "singleQuote": true,
     "trailingComma": "es5"
