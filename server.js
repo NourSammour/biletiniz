@@ -1,3 +1,4 @@
+const config = require('./next.config');
 const express = require('express')
 const next = require('next')
 
