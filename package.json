@@ -49,7 +49,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run prettier"
+      "pre-commit": "lint-staged"
     }
   },
   "license": "ISC"
