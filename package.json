@@ -42,10 +42,15 @@
     "pre-commit"
   ],
   "lint-staged": {
-    "*.js,*.css": [
+    "*.{js,json,css,scss,html,md}": [
       "prettier --write",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier"
+    }
   },
   "license": "ISC"
 }
