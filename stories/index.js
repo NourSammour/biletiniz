@@ -35,4 +35,4 @@ storiesOf('Button', module)
   ))
   .add('Custom Button primary',()=>(
     <CustomButton primary>Custom Button primary</CustomButton>
-  ));
+   ));
