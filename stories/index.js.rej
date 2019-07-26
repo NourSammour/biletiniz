@@ -1,5 +1,0 @@
-diff a/stories/index.js b/stories/index.js	(rejected hunks)
-@@ -38 +41 @@ storiesOf('Button', module)
--  ));
-\ No newline at end of file
-+  ));
